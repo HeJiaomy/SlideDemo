@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">?windowNoTitle</item>-->
+    </style>
+
+
+    <style name="style_textView" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:background">@drawable/selector_menu_tv_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#ADCFD6</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
